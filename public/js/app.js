@@ -1,4 +1,4 @@
-console.log("Cliente side javascript file is loaded"); // test
+
 // selecting elements in html file
 const weatherForm = document.querySelector("form");
 const searchElement = document.querySelector("input");

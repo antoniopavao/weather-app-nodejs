@@ -53,7 +53,7 @@ header a {
 input {
 
     border: 1px solid #cccccc;
-    padding: 8px 26px;
+    padding: 8px 26px 8px 8px;
     border-radius: 4px;
 
 }
@@ -75,6 +75,21 @@ button:hover{
     background-color: purple;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.messages{
+    background-color: #EEEEEE;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+.messages .message-1 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px; 
+    
 }
 
 

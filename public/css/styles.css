@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+body {
+  color: #2f3640;
+  font-family: "Fjalla One", sans-serif;
+  letter-spacing: 1px;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-decoration: none;
+  background-color: #9b59b6;
+}
+button {
+  border: none;
+}
+
+.main-content {
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 41px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 25px #a6a6a6, -5px -5px 25px #ffffff;
+}
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 28px;
+}
+h2 {
+  color: #7f8fa6;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+  background-color: #b6c9f0;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.portrait {
+  width: 250px;
+  border-radius: 2rem;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px 26px 8px 8px;
+  border-radius: 4px;
+}
+
+button {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  border-radius: 4px;
+
+  background-color: blueviolet;
+  color: white;
+}
+button:hover {
+  background-color: purple;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.messages {
+  background-color: #eeeeee;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.messages .message-1 {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
